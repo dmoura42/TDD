@@ -6,18 +6,19 @@ import org.junit.jupiter.api.Test;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BonusServiceTest {
 
     @Test
-    void bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto(){
+    void bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto() {
         BonusService service = new BonusService();
-       assertThrows(IllegalArgumentException.class, () -> service.calcularBonus(new Funcionario("Daniel", LocalDate.now(), new BigDecimal("25000"))));
+        assertThrows(IllegalArgumentException.class, () -> service.calcularBonus(new Funcionario("Daniel", LocalDate.now(), new BigDecimal("25000"))));
     }
 
     @Test
-    void bonusDeveriaSer10PorCentoDoSalario(){
+    void bonusDeveriaSer10PorCentoDoSalario() {
         BonusService service = new BonusService();
         BigDecimal bonus = service.calcularBonus(new Funcionario("Daniel", LocalDate.now(), new BigDecimal("2500")));
 
@@ -25,7 +26,7 @@ class BonusServiceTest {
     }
 
     @Test
-    void bonusDeveriaSer10PorCentoParaSalarioDeExatamente10000(){
+    void bonusDeveriaSer10PorCentoParaSalarioDeExatamente10000() {
         BonusService service = new BonusService();
         BigDecimal bonus = service.calcularBonus(new Funcionario("Daniel", LocalDate.now(), new BigDecimal("10000")));
 
