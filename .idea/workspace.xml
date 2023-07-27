@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Refatorando">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/BonusService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/modelo/Desempenho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/modelo/Desempenho.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/service/ReajusteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/service/ReajusteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/alura/tdd/service/ReajusteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/alura/tdd/service/ReajusteServiceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Refatorando" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +78,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReajusteServiceTest">
+  <component name="RunManager" selected="JUnit.All in tdd">
     <configuration name="All in tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -161,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd" />
         <item itemvalue="JUnit.ReajusteServiceTest" />
         <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
         <item itemvalue="JUnit.BonusServiceTest" />
-        <item itemvalue="JUnit.All in tdd" />
         <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
       </list>
     </recent_temporary>
@@ -226,7 +216,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690479003429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refatorando">
+      <option name="closed" value="true" />
+      <created>1690482035684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690482035684</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refatorando">
+      <option name="closed" value="true" />
+      <created>1690482041848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690482041848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refatorando">
+      <option name="closed" value="true" />
+      <created>1690482212031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690482212031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
