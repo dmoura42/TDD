@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Testes automatizados com JUnit e Maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Desempenho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiveTest.java" afterDir="false" />
+    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Utilizando TDD para desenvolver código a partir dos testes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Desempenho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Desempenho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="CalculadoraTest.deveriaSomarDoisNumerosPositivos" />
-    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/dmour/IdeaProjects/TDD/src/main/java/br/com/alura/tdd/service",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/dmour/IdeaProjects/TDD/src/main/java/br/com/alura/tdd/service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura.tdd.modelo" />
@@ -89,7 +83,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar">
+  <component name="RunManager" selected="JUnit.All in tdd">
     <configuration name="All in tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTest.bonusDeveriaSer10PorCentoDoSalario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +101,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.BonusServiceTest" />
-      <option name="METHOD_NAME" value="bonusDeveriaSer10PorCentoDoSalario" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.ReajusteServiceTest" />
+      <option name="METHOD_NAME" value="reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +119,22 @@
       <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.ReajusteServiceTest" />
       <option name="METHOD_NAME" value="reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.tdd.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.ReajusteServiceTest" />
+      <option name="METHOD_NAME" value="reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,10 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd" />
+        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
+        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
         <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
         <item itemvalue="Maven.tdd [test]" />
-        <item itemvalue="JUnit.All in tdd" />
-        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSer10PorCentoDoSalario" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690399452823</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Utilizando TDD para desenvolver código a partir dos testes">
+      <option name="closed" value="true" />
+      <created>1690401180605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690401180605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testes automatizados com JUnit." />
     <MESSAGE value="Testes automatizados com JUnit e Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testes automatizados com JUnit e Maven" />
+    <MESSAGE value="Utilizando TDD para desenvolver código a partir dos testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilizando TDD para desenvolver código a partir dos testes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TDD$CalculadoraTest_deveriaSomarDoisNumerosPositivos.ic" NAME="CalculadoraTest.deveriaSomarDoisNumerosPositivos Coverage Results" MODIFIED="1690394412227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
