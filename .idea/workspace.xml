@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Utilizando TDD para desenvolver código a partir dos testes">
+    <list default="true" id="d64ed9a3-e90e-491d-81a1-36f5a55b7e09" name="Changes" comment="Refatorando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Desempenho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Desempenho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/modelo/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/BonusService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/tdd/service/ReajusteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/modelo/Desempenho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/modelo/Desempenho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/service/ReajusteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/tdd/service/ReajusteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/alura/tdd/service/ReajusteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/alura/tdd/service/ReajusteServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in tdd">
+  <component name="RunManager" selected="JUnit.ReajusteServiceTest">
     <configuration name="All in tdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +106,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.ReajusteServiceTest" />
-      <option name="METHOD_NAME" value="reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.BonusServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.tdd.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.BonusServiceTest" />
+      <option name="METHOD_NAME" value="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReajusteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura.tdd.service" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.tdd.service.ReajusteServiceTest" />
-      <option name="METHOD_NAME" value="reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,38 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tdd [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReajusteServiceTest" />
+        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
+        <item itemvalue="JUnit.BonusServiceTest" />
         <item itemvalue="JUnit.All in tdd" />
         <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
-        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
-        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
-        <item itemvalue="Maven.tdd [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690401180605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refatorando">
+      <option name="closed" value="true" />
+      <created>1690479003428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690479003429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +244,8 @@
     <MESSAGE value="Testes automatizados com JUnit." />
     <MESSAGE value="Testes automatizados com JUnit e Maven" />
     <MESSAGE value="Utilizando TDD para desenvolver código a partir dos testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilizando TDD para desenvolver código a partir dos testes" />
+    <MESSAGE value="Refatorando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorando" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TDD$CalculadoraTest_deveriaSomarDoisNumerosPositivos.ic" NAME="CalculadoraTest.deveriaSomarDoisNumerosPositivos Coverage Results" MODIFIED="1690394412227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
